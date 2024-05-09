@@ -12,6 +12,8 @@ unfixable = ["B"]
 [lint.flake8-import-conventions]
 # Declare the banned `from` imports.
 banned-from = ["os.path", "numpy", "pandas", "numbers.util"]
+# "numpy", "pandas" are defaults
+# https://github.com/joaopalmeiro/flake8-import-conventions?tab=readme-ov-file#flake8-codes
 
 
 

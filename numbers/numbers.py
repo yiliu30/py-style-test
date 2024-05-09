@@ -7,7 +7,9 @@ from pandas import Series
 
 from numpy import arange
 import numpy as np
+import pandas as pd
 
+k = pd.Series([1, 2, 3, 4, 5])
 
 
 from numbers.util import func1, func2
