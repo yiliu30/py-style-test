@@ -5,6 +5,17 @@ from torch import nn
 
 from pandas import Series
 
+from numpy import arange
+import numpy as np
+
+
+
+from numbers.util import func1, func2
+
+a = np.array([1, 2, 3, 4, 5])
+
+a = arange(10)
+
 a = Series([1, 2, 3, 4, 5])
 
 linear = nn.Linear(1, 1)
